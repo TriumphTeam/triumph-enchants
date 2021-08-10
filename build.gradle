@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+group = 'dev.triumphteam'
+version = '0.1-SNAPSHOT'
+description = 'Triumph Enchants'
+
+java.sourceCompatibility = JavaVersion.VERSION_1_8
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}

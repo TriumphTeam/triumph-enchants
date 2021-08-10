@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'dev.triumphteam'
+version '0.1-SNAPSHOT'
+
+
+repositories {
+    mavenCentral()
+    maven {
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+    }
+    maven {
+        url = 'https://oss.sonatype.org/content/groups/public/'
+    }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.16.1-R0.1-SNAPSHOT'
+}

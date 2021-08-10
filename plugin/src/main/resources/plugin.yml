@@ -1,0 +1,8 @@
+name: TriumphEnchants
+version: ${project.version}
+main: dev.triumphteam.dev.triumphenchants.TriumphEnchants
+api-version: 1.16
+prefix: TriumphEnchants
+authors: [ TriumphTeam ]
+description: Adds additional enchantments to your server.
+website: triumphteam.dev
